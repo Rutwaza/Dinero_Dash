@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('home-page.jpg') center/cover no-repeat fixed;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #1de9b6; /* Neon Green */
+}
+
+header span {
+    color: #ffeb3b; /* Yellow */
+}
+
+header p {
+    font-weight: 300;
+    color: #a89d35;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+.cta-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+.in-cta{
+    text-align: center;
+    margin: 20px;
+    max-width: 300px;
+}
+.in-cta a{
+    text-shadow:2px 2px 10px #d3f707;
+    font-size: 1.5em;
+}
+
+.cta {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cta h2 {
+    color: #ffeb3b; /* Yellow */
+}
+
+.cta a {
+    color: #1de9b6; /* Neon Green */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta a:hover {
+    border-bottom: 2px solid #1de9b6; /* Neon Green */
+    transition: border-bottom 0.3s ease-in-out;
+}
+.description {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px; /* Adjust the margin-top as needed */
+}
+
+.description h2 {
+    color: #ffeb3b; /* Yellow */
+}
+
+.description p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #fff;
+  
+}
+
+.description ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.description li {
+    margin-bottom: 10px;
+}
+
+.description h3 {
+    color: #1de9b6; /* Neon Green */
+    margin-top: 20px;
+}
+
+.description h3 + ul {
+    margin-top: 10px;
+}
+
+.description a {
+    color: #1de9b6; /* Neon Green */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.description a:hover {
+    border-bottom: 2px solid #1de9b6; /* Neon Green */
+    transition: border-bottom 0.3s ease-in-out;
+}
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px;
+    max-width: 300px; /* Adjust the max-width as needed */
+}
+
+
+.feature h2 {
+    color: #ffeb3b; /* Yellow */
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #fff;
+}
+
+
+.feature ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+}
+.feature li {
+    margin-bottom: 10px;
+}
+.feature ul li {
+    margin-bottom: 10px; /* Adjust the margin for spacing between list items */
+}
+
+.feature a {
+    color: #1de9b6; /* Neon Green */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.feature a:hover {
+    border-bottom: 2px solid #1de9b6; /* Neon Green */
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+
+.popup {
+    display: none;
+    margin-top: 0%;
+    background-color: #20242b;
+    border: 2px solid #035DF0; /* Red border */
+    box-shadow: 0 0 10px rgba(2, 59, 243, 0.5),0 0 30px rgba(2, 59, 243, 0.5),0 0 100px rgba(2, 59, 243, 0.5),0 0 200px rgba(2, 59, 243, 0.5),0 0 400px rgba(175, 2, 243, 0.5); /* Red neon shadow */
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+    border-radius: 15px; /* Rounded corners */
+  }
+
+.popup p {
+    font-size: 30px; /* Adjust font size as needed */
+    font-family: 'Verdana', sans-serif; /* Change the font family */
+  }
+.buttons{
+    display: flex;
+}  
+.loginbtn{
+    background: #d3f707;
+    margin-left: 70%;
+    font-size: 1.5em;
+    border-radius: 2em;
+    padding: 5px;
+}  
+.loginbtn:hover{
+    background: #1de9b6;
+}
+    
+.registerbtn{
+    background: #d3f707;
+    margin-left: 1%;
+    font-size: 1.5em;
+    border-radius: 2em;
+} 
+.registerbtn:hover{
+    background: #1de9b6;
+}
+
